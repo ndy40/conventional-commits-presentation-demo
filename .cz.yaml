@@ -1,9 +1,9 @@
 commitizen:
-  name: cz_conventional_commits
-  version: v0.0.0
-  version_files:
-    - .version
-    - demo/__init__py:version
-  tag_format: "v$version"
   annotated_tag: true
+  name: cz_conventional_commits
+  tag_format: v$version
   update_changelog_on_bump: true
+  version: 0.1.0
+  version_files:
+  - .version
+  - demo/__init__.py:version
