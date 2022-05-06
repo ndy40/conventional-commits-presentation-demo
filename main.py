@@ -3,7 +3,7 @@ def hello():
    print('Hello world')
 
 def times2(a):
-   return a * 2 + 1
+   return a * 2
 
 def multiply_by_2(a):
    return a * 2
